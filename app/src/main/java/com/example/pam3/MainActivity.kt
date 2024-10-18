@@ -68,6 +68,11 @@ fun BasicComposable(modifier: Modifier = Modifier){
             color = Color.Black,
             fontWeight = FontWeight.Bold
         )
+        Text(text = "Buya Ramadhan Priyanto", modifier = Modifier,
+            fontSize = 15.sp,
+            color = Color.Blue,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
 @Composable
