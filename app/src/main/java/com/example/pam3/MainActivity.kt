@@ -54,6 +54,11 @@ fun BasicComposable(modifier: Modifier = Modifier){
             color = Color.DarkGray,
             fontWeight = FontWeight.Bold
         )
+        Text(text = "Ini Adalah Halaman Login",
+            fontSize = 25.sp,
+            color = Color.DarkGray,
+            fontStyle = FontStyle.Italic
+        )
     }
 }
 @Composable
