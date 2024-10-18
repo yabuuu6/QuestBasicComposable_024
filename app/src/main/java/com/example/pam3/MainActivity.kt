@@ -80,6 +80,8 @@ fun BasicComposable(modifier: Modifier = Modifier){
         )
         Image(painter = painterResource(id = R.drawable.poto),
             contentDescription = null,
+            modifier = Modifier.size(250.dp)
+
         )
     }
 }
