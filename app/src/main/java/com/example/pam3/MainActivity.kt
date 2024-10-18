@@ -43,6 +43,7 @@ class MainActivity : ComponentActivity() {
 }
 @Composable
 fun BasicComposable(modifier: Modifier = Modifier){
+    Column()
 }
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
