@@ -41,6 +41,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+@Preview(showBackground = true)
 @Composable
 fun BasicComposable(modifier: Modifier = Modifier){
     Column(
