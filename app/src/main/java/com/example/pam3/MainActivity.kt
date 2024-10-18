@@ -66,12 +66,12 @@ fun BasicComposable(modifier: Modifier = Modifier){
         )
         Text(text = "Nama", modifier = Modifier,
             fontSize = 20.sp,
-            color = Color.Black,
+            color = Color.Blue,
             fontWeight = FontWeight.Bold
         )
         Text(text = "Buya Ramadhan Priyanto", modifier = Modifier,
             fontSize = 15.sp,
-            color = Color.Blue,
+            color = Color.Red,
             fontWeight = FontWeight.Bold
         )
         Text(text = "20220140024", modifier = Modifier,
