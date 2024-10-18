@@ -49,6 +49,9 @@ fun BasicComposable(modifier: Modifier = Modifier){
         horizontalAlignment = Alignment.CenterHorizontally,
     )
     {
+        Text(text = "LOGIN", modifier = Modifier,
+
+        )
     }
 }
 @Composable
